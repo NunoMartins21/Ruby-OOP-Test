@@ -23,6 +23,7 @@ class Caneta
 		if @tapada
 			puts "Impossivel escrever"
 		else
+			@carga = @carga - 2.5
 			puts "Estou a escrever."
 		end
 	end
