@@ -28,6 +28,15 @@ class Caneta
 		end
 	end
 
+	def escreverFrase(txt)
+		if @tapada
+			puts "Impossível escrever"
+		else
+			@carga = @carga - 2.5
+			puts txt
+		end
+	end
+
 	def recarregar
 		if @carga < 100
 			@carga = 100
