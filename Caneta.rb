@@ -1,17 +1,17 @@
 class Caneta
 
-	@@tapada = false
+	@tapada = false
 
 	def tapar
-		@@tapada = true
+		@tapada = true
 	end
 
 	def destapar
-		@@tapada = false
+		@tapada = false
 	end
 
 	def escrever
-		if @@tapada
+		if @tapada
 			puts "Impossivel escrever"
 		else
 			puts "Estou a escrever."
