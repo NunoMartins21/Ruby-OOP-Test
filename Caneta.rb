@@ -1,6 +1,11 @@
 class Caneta
 
-	@tapada = false
+	def initialize(cor, marca, forma)
+		@tapada = false
+		@cor = cor
+		@marca = marca
+		@forma = forma
+	end
 
 	def tapar
 		@tapada = true
