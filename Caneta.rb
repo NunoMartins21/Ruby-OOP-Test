@@ -26,4 +26,11 @@ class Caneta
 			puts "Estou a escrever."
 		end
 	end
+
+	def recarregar
+		if @carga < 100
+			@carga = 100
+		else
+			puts "Carga no seu máximo"
+	end
 end
