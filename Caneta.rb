@@ -42,6 +42,7 @@ class Caneta
 			@carga = 100
 		else
 			puts "Carga no seu máximo"
+		end
 	end
 
 	def estado
