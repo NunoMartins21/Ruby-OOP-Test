@@ -43,4 +43,8 @@ class Caneta
 		else
 			puts "Carga no seu máximo"
 	end
+
+	def estado
+		puts self.inspect
+	end
 end
