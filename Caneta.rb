@@ -8,6 +8,7 @@ class Caneta
 		@cor = cor
 		@marca = marca
 		@forma = forma
+		@carga = 100.0
 	end
 
 	def tapar
