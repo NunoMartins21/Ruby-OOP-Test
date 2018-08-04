@@ -1,5 +1,8 @@
 class Caneta
 
+	attr_accessor :cor
+	attr_reader :marca, :forma, :tapada
+
 	def initialize(cor, marca, forma)
 		@tapada = false
 		@cor = cor
