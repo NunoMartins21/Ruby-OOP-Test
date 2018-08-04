@@ -24,7 +24,7 @@ class Caneta
 			puts "Impossivel escrever"
 		else
 			@carga = @carga - 2.5
-			puts "Estou a escrever."
+			puts "Estou a escrever com a cor #{@cor}"
 		end
 	end
 
